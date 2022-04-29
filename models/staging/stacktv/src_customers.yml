@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: antony_sandbox
+    database: asmith-sandbox-3393
+
+    schema: dbt_stacktv
+    tables:
+      - name: stacktv_customers
